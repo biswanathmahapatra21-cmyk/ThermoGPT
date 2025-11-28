@@ -1,0 +1,60 @@
+# -----------------------------
+# Environment & Secrets
+# -----------------------------
+.env
+*.env
+.env.*
+
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+venv/
+.env/
+.venv/
+env/
+
+# -----------------------------
+# Data that should NOT go to GitHub
+# -----------------------------
+data/corpus/*            # Your PDFs
+data/corpus              # Folder
+embeddings/*             # Generated embeddings
+embeddings               # Folder
+
+# -----------------------------
+# OS / IDE files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# -----------------------------
+# Streamlit cache
+# -----------------------------
+.streamlit/
+**/.streamlit/
+
+# -----------------------------
+# Build / distribution
+# -----------------------------
+dist/
+build/
+
+# -----------------------------
+# Temporary / local files
+# -----------------------------
+*.tmp
+*.temp
+*.swp
+*.bak
